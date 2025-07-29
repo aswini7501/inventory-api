@@ -6,4 +6,7 @@ app = Flask(__name__)
 def home():
    return "Inventory API is running!"
 
+@app.route("/login")
+def login():
+   return "Login Page"
 
