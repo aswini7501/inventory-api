@@ -1,4 +1,7 @@
 # main.py
+import os
+print("ENV:", os.getenv("APP_ENV"))
+
 from flask import Flask
 app = Flask(__name__)
 
